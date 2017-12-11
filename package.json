@@ -1,6 +1,6 @@
 {
   "name": "ts-ext-webix",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Typescript version of ExtWebix",
   "main": "dist/main.js",
   "types": "dist/ts-ext-webix.d.ts",
