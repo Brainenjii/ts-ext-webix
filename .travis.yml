@@ -12,7 +12,7 @@ before_install:
 install:
 - npm install
 
-scripts:
+script:
 - npm run-script compile
 - npm run-script generate
 
