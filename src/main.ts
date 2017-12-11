@@ -5,7 +5,7 @@ import {UtilManager} from "./managers/Util";
 import {ViewManager} from "./managers/View";
 import {ApplicationConfig, BaseView, WidgetConfig} from "./types/Types";
 
-interface Managers {
+export interface Managers {
   view: ViewManager;
   util: UtilManager;
   controller: ControllerManager;

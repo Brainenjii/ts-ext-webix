@@ -57,5 +57,9 @@ typings/
 # dotenv environment variables file
 .env
 
+# IDEA-based IDE files
 .idea
 package-lock.json
+
+# Project specific files
+dist

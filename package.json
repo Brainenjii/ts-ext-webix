@@ -2,21 +2,21 @@
   "name": "ts-ext-webix",
   "version": "0.1.1",
   "description": "Typescript version of ExtWebix",
-  "main": "src/main.ts",
+  "main": "dist/main.js",
+  "types": "dist/ts-ext-webix.d.ts",
   "dependencies": {
-    "@types/bluebird": "^3.5.3",
-    "@types/es6-promise": "0.0.32",
-    "@types/lodash": "^4.14.87",
-    "lodash": "^4.17.4",
-    "typings": "^2.1.1"
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "@types/webix": "^4.3.2"
+    "@types/lodash": "^4.14.87",
+    "@types/webix": "^4.3.2",
+    "dts-generator": "^2.1.0",
+    "typescript": "^2.6.2"
   },
   "scripts": {
-    "compile": "tsc"
+    "compile": "tsc",
+    "generate": "dts-generator --name ts-ext-webix --project ./ --out dist/ts-ext-webix.d.ts"
   },
-  "types": "src/main.ts",
   "keywords": [
     "typescript",
     "extjs",

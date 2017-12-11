@@ -11,6 +11,7 @@ export interface ApplicationConfig {
 }
 
 export interface WidgetConfig extends webix.ui.baseviewConfig {
+  id?: string;
   alias?: string;
   data?: any;
   itemId?: string;
