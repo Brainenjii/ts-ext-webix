@@ -17,6 +17,7 @@ script:
 - npm run-script generate
 
 deploy:
+  skip_cleanup: true
   provider: npm
   email: "brainenjii@gmail.com"
   api_key: "$NPM_API_KEY"
