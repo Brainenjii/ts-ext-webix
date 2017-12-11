@@ -1,9 +1,9 @@
 {
   "name": "ts-ext-webix",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Typescript version of ExtWebix",
   "main": "index.js",
-  "types": "dist/ts-ext-webix.d.ts",
+  "types": "ts-ext-webix.d.ts",
   "dependencies": {
     "lodash": "^4.17.4"
   },
