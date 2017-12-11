@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "target": "es6",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "outDir": "dist/",
+    "lib": ["es6", "dom"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
